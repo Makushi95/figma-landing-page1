@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "QuicksandBold";
+  src: url(./fonts/Quicksand_Bold.otf);
+}
+
+@font-face {
+  font-family: "QuicksandBook";
+  src: url(./fonts/Quicksand_Book.otf);
+}
+
+@font-face {
+  font-family: "QuicksandDash";
+  src: url(./fonts/Quicksand_Dash.otf);
+}
+
+@font-face {
+  font-family: "QuicksandLight";
+  src: url(./fonts/Quicksand_Light.otf);
+}
+
+:root {
+  --ff-quicksandBold: "QuicksandBold", Helvetica;
+  --ff-quicksandBook: "QuicksandBook", Helvetica;
+  --ff-quicksandDash: "QuicksandDash", Helvetica;
+  --ff-quicksandLight: "QuicksandLight", Helvetica;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  background: radial-gradient(
+    148.94% 26.9% at 0% 2.35%,
+    #d8e1f1 0%,
+    #eaf4f3 76.88%,
+    #f1f2f4 100%
+  );
+}
