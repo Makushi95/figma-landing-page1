@@ -1,0 +1,76 @@
+.opinions {
+  text-align: center;
+}
+
+.opinions h2 {
+  font-family: var(--ff-quicksandBold);
+  font-size: 70px;
+  margin-bottom: 2em;
+}
+
+.opinionsPanels {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.opinionsPanels > div {
+  width: 390px;
+  height: 220px;
+  background-color: #fbfbfb;
+  border: 0.870233px solid rgba(27, 27, 40, 0.08);
+  box-shadow: 0.870233px -3.48093px 52.214px rgba(13, 27, 78, 0.05);
+  border-radius: 17.4047px;
+  padding-inline: 1.5em;
+  font-size: 17px;
+  line-height: 21px;
+  font-weight: 600;
+}
+
+.opinionsPanels h5 {
+  font-family: var(--ff-quicksandBold);
+}
+
+.opinionsPanels > div:nth-child(2) {
+  width: 520px;
+  height: 330px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.opinionsPanels .topImage {
+  display: grid;
+  place-items: center;
+  width: 220px;
+  height: 60px;
+  background: #fbfbfb;
+  border: 0.655296px solid rgba(27, 27, 40, 0.08);
+  box-shadow: 5.89766px 7.86355px 39.3177px rgba(15, 29, 75, 0.1);
+  border-radius: 13.1059px;
+  margin: -1.8em auto 2em;
+}
+
+.opinions-panelMid .topImage {
+  width: 290px;
+  height: 80px;
+}
+
+.opinions button {
+  margin-block: 2em;
+  padding: 21px 24px;
+  background: linear-gradient(
+    93.79deg,
+    #ffffff 0%,
+    #ff7020 0%,
+    #f8872d 55.55%,
+    #f19d3a 109.5%
+  );
+  border-radius: 25px;
+  font-family: var(--ff-quicksandBold);
+  font-size: 30px;
+  line-height: 38px;
+  color: #fff;
+  outline: none;
+  border: none;
+}

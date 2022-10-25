@@ -1,0 +1,19 @@
+.qualityLeads {
+  display: flex;
+}
+
+.quality-panelLeft h3 {
+  font-family: var(--ff-quicksandBold);
+  font-size: 60px;
+  line-height: 75px;
+}
+
+.quality-panelLeft p {
+  font-size: 36px;
+  line-height: 45px;
+  font-weight: 600;
+}
+
+.quality-panelRight img {
+  padding-top: 30%;
+}

@@ -1,0 +1,20 @@
+.improvement {
+  display: flex;
+}
+
+.improvement-panelLeft {
+  display: grid;
+  place-items: center;
+}
+
+.improvement-panelRight h3 {
+  font-family: var(--ff-quicksandBold);
+  font-size: 60px;
+  line-height: 75px;
+}
+
+.improvement-panelRight p {
+  font-size: 36px;
+  line-height: 45px;
+  font-weight: 600;
+}

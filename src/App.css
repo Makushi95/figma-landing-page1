@@ -43,4 +43,7 @@ body {
     #eaf4f3 76.88%,
     #f1f2f4 100%
   );
+  color: #080e41;
+  font-family: var(--ff-quicksandLight);
+  padding: 2em 6em 0;
 }

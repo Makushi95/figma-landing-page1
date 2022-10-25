@@ -1,8 +1,5 @@
 .hero {
   display: flex;
-  color: #080e41;
-  font-family: var(--ff-quicksandLight);
-  padding: 2em 4em 0;
 }
 
 .hero-panelLeft {
@@ -12,11 +9,14 @@
 .hero-panelLeft h1 {
   font-family: var(--ff-quicksandBold);
   font-size: 100px;
+  line-height: 125px;
+  letter-spacing: -4px;
 }
 
 .hero-panelLeft p {
+  font-family: var(--ff-quicksandBold);
   font-size: 30px;
-  font-weight: 600;
+  line-height: 37.5px;
 }
 
 .hero-panelRight {
