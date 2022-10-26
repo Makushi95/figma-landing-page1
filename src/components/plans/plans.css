@@ -1,0 +1,37 @@
+.plans {
+  text-align: center;
+}
+
+.plans h2 {
+  font-size: 70px;
+  line-height: 88px;
+  font-family: var(--ff-quicksandBold);
+}
+
+.plans .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.plans button {
+  margin-top: 3em;
+  padding: 21px 24px;
+  background: linear-gradient(
+    93.79deg,
+    #ffffff 0%,
+    #ff7020 0%,
+    #f8872d 55.55%,
+    #f19d3a 109.5%
+  );
+  transition: 0.2s;
+  border-radius: 25px;
+  font-family: var(--ff-quicksandBold);
+  font-size: 30px;
+  line-height: 38px;
+  color: #fff;
+  outline: none;
+  border: none;
+}
+.plans button:hover {
+  opacity: 0.8;
+}

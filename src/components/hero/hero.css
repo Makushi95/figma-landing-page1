@@ -1,5 +1,6 @@
 .hero {
   display: flex;
+  padding: 2em 6em;
 }
 
 .hero-panelLeft {
@@ -48,6 +49,7 @@
     #f8872d 55.55%,
     #f19d3a 109.5%
   );
+  transition: 0.2s;
   color: #fff;
   font-family: var(--ff-quicksandBold);
   font-size: 30px;
@@ -55,4 +57,7 @@
   border-radius: 25px;
   outline: none;
   border: none;
+}
+.hero-panelRight button:hover {
+  opacity: 0.8;
 }

@@ -22,6 +22,7 @@ const Ul = styled.ul`
     transition: 0.2s;
     padding-block: 24px;
     text-decoration: none;
+    cursor: pointer;
   }
 
   a.active {
@@ -29,7 +30,7 @@ const Ul = styled.ul`
   }
 
   a:hover {
-    opacity: 1;
+    text-decoration: underline;
   }
 
   @media (max-width: 920px) {

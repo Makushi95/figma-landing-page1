@@ -1,5 +1,7 @@
 .qualityLeads {
   display: flex;
+
+  padding: 2em 6em;
 }
 
 .quality-panelLeft h3 {

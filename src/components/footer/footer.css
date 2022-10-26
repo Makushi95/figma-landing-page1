@@ -1,0 +1,45 @@
+.footer {
+  margin-top: 6em;
+  display: flex;
+  justify-content: space-around;
+  background: #080e41;
+  padding: 2em;
+}
+
+.footer h5 {
+  font-size: 25px;
+  line-height: 31px;
+  font-family: var(--ff-quicksandBold);
+  color: #fff;
+}
+
+.footer p {
+  font-size: 20px;
+  line-height: 25px;
+  color: #fff;
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+.footer input {
+  background: transparent;
+  font-size: 20px;
+  line-height: 25px;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.footer button {
+  background: transparent;
+  font-size: 20px;
+  line-height: 25px;
+  font-family: var(--ff-quicksandBold);
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+.footer hr {
+  border: 1px solid #fff;
+}
