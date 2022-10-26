@@ -44,7 +44,6 @@ const Opinions = () => {
           <h5>CEO of Bumble</h5>
         </div>
       </div>
-      <div className="dots">. . .</div>
       <button>Contact Us</button>
     </div>
   );

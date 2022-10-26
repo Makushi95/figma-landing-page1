@@ -27,7 +27,7 @@
   align-items: center;
 }
 
-.hero-panelRight div {
+.hero-panelRight > div {
   width: 484px;
   height: 376px;
   margin-top: 67px;
@@ -41,7 +41,7 @@
   border-radius: 30px;
 }
 
-.hero-panelRight button {
+.hero-panelRight > button {
   background: linear-gradient(
     93.79deg,
     #ffffff 0%,
@@ -58,6 +58,20 @@
   outline: none;
   border: none;
 }
-.hero-panelRight button:hover {
+.hero-panelRight > button:hover {
   opacity: 0.8;
+}
+
+.calendar {
+  text-align: center;
+  padding-top: 2em;
+  padding-inline: 2em;
+}
+
+.calendar button {
+  padding: 0.3em;
+  font-size: 24px;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
 }

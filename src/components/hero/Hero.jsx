@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
+import Calendar from "react-calendar";
 import "./hero.css";
 
 const Hero = () => {
+  const [value, onChange] = useState(new Date());
+
   return (
     <div className="hero">
       <div className="hero-panelLeft">
@@ -12,7 +15,9 @@ const Hero = () => {
         </p>
       </div>
       <div className="hero-panelRight">
-        <div></div>
+        <div className="calendar">
+          <Calendar onChange={onChange} value={value} />
+        </div>
         <button>Check Availability</button>
       </div>
     </div>
